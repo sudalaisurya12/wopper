@@ -1,0 +1,204 @@
+.contactUs {
+  background-color: #e8f4f9;
+  border-bottom: 2px solid #009ee4;
+  padding: 25px 0px;
+  transition: 0.3s;
+}
+
+.contactUs:hover {
+  background-color: #e8f4f9;
+  border-bottom: 2px solid #716e6e;
+  padding: 25px 0px;
+  transition: 0.3s;
+}
+
+.contactUs:hover {
+  background-color: #e8f4f9;
+  border-bottom: 2px dotted 009ee4;
+  padding: 25px 0px;
+}
+
+.contactImages img {
+  display: block;
+  margin: 0px auto;
+  padding: 20px 0;
+}
+
+.contactImages h4 {
+  text-align: center;
+  font-family: "work_sanssemibold";
+}
+
+.contactImages p,
+.contactImages a {
+  text-align: center;
+  font-family: "work_sansmedium";
+  color: #716e6e;
+}
+
+.contactUs:hover img {
+  color: red !important;
+}
+
+.writeUs {
+  padding: 20px 0;
+}
+
+.locationHght {
+  min-height: 68px;
+}
+
+.writeUs {
+  background-color: #e8f4f9;
+  padding: 40px 0px;
+}
+
+.writeUs h4 {
+  font-family: "work_sanssemibold";
+}
+.writeUs ::placeholder {
+  color: #716e6e !important;
+  font-family: "work_sansmedium";
+  opacity: 1; /* Firefox */
+}
+
+.writeUs :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #716e6e !important;
+  font-family: "work_sansmedium";
+}
+
+.writeUs ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #949a9e !important;
+  font-family: "work_sansmedium";
+}
+
+.contactUsForm .form-control {
+  border: none;
+  border-bottom: 2px solid #918f8fcc;
+  border-radius: 0;
+  background: transparent;
+}
+
+.contactUsForm .form-control:focus {
+  box-shadow: none;
+}
+
+.send {
+  background: #009ee4 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  font-family: "work_sanssemibold";
+  text-transform: uppercase;
+  color: white;
+}
+
+.send:hover {
+  background: #00a0e49a 0% 0% no-repeat padding-box;
+  color: white;
+}
+
+.sendButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.callUs {
+  padding: 71px 0 33px 0;
+}
+
+.contactUsForm .row {
+  margin-top: 2rem;
+}
+
+.location iframe {
+  width: 100% !important;
+}
+
+.contact-us-map iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.contact-images{
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-images1{
+  width: 47px;
+  display: block;
+  margin: 0 auto;
+}
+
+.write{
+  position: relative;
+  z-index: 999;
+}
+
+.location{
+  position: absolute;
+  z-index: -999;
+  bottom: 100px;
+}
+
+
+/* Media query start */
+@media (min-width: 1400px) {
+  .callUs col{
+    width: 29%;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .locationHght {
+    min-height: 92px;
+}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .locationHght {
+    min-height: 68px;
+  }
+
+  .locationHght {
+    min-height: 91px;
+}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .locationHght {
+    min-height: 91px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575px) {
+  .writeUs {
+    position: absolute;
+    top: 255%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+}
+
+@media (min-width: 426px) and (max-width: 575px) {
+}

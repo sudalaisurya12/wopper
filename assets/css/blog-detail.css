@@ -1,0 +1,41 @@
+.blog-head {
+    font-size: 28px;
+}
+
+.blog-sub-head {
+    font-family: "work_sansmedium";
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.blog-wrap-content p {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:575px) {
+    .blog-wrap-contents {
+        margin: 5rem 0 1rem 0 !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .blog-wrap-contents {
+        margin: 5rem 0 1rem 0 !important;
+    }
+
+}
+.blog-wrap-contents{
+    margin: 5rem 0 4rem 0 !important;
+}
+
+.blogCommunity{
+    margin-bottom: 3rem !important;
+}
+
+@media (max-width:575px){
+    .blog-wrap-contents {
+        margin: 4rem 0 4rem 0 !important;
+    }
+    
+}

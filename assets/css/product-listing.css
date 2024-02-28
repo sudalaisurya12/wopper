@@ -1,0 +1,245 @@
+.productSearch {
+  background: #efefef 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.productSearch h5 {
+  font-family: "montserratmedium";
+  color: black;
+}
+
+.productSearch .form-check-input:checked {
+  background-color: #009ee4;
+  border-color: #009ee4;
+  box-shadow: none;
+}
+
+.productSearch label {
+  font-family: "work_sansmedium";
+  color: #8d8d8d;
+  cursor: pointer;
+}
+
+.homeRedirect p a:hover {
+  color: black !important;
+  font-family: "work_sansmedium";
+}
+.homeRedirect p a:active {
+  color: black !important;
+  font-family: "work_sansmedium";
+}
+.homeRedirect p {
+  font-size: 16px;
+}
+
+/* Select Dropdown */
+.productDropdown .custom-select {
+  position: relative;
+  display: inline-block;
+}
+
+.productDropdown .custom-select select {
+  display: none; /* Hide the original dropdown arrow */
+}
+
+.productDropdown .custom-select::after {
+  content: "\25BC"; /* Unicode character for a downward arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style the dropdown options */
+.productDropdown .dropdown {
+  width: 200px;
+  position: relative;
+}
+
+/* Styling the select element */
+.productDropdown .dropdown select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c8c8c8;
+  border-radius: 4px;
+  appearance: none; /* Remove default arrow icon */
+}
+
+/* Styling the dropdown arrow */
+.productDropdown .dropdown::after {
+  content: "\25BC"; /* Unicode character for downward arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.sortBy {
+  font-family: "work_sansmedium";
+  padding-right: 10px;
+}
+
+.homeRedirect p {
+  margin-bottom: 0;
+}
+
+.productListName {
+  font-family: "work_sansregular" !important;
+  font-size: 15px;
+}
+
+.productListName p {
+  margin-bottom: 0;
+}
+
+.newParaBoldList {
+  font-family: "work_sanssemibold";
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 800 !important;
+  color: black !important;
+}
+
+.newArrivalsImagesList {
+  width: 150px;
+  height: 190px;
+  display: block;
+  margin: 0 auto;
+  align-items: center !important;
+  align-self: center;
+}
+
+.listTopSpace {
+  margin-top: 2rem;
+}
+
+.newArrivalsImagesList img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+}
+
+.listTopSpace p {
+  margin-bottom: 0;
+}
+
+.listNameHght {
+  min-height: 55px;
+}
+
+.visionRelativeList {
+  position: relative;
+}
+
+.listTopSpace .row {
+  margin-bottom: 2rem;
+}
+
+.home-house {
+  color: #c8c8c8;
+}
+
+.home-house:active{
+  color: black;
+}
+.home-house:hover {
+  color: black;
+}
+
+.productListWdth:hover p {
+  color: #009ee4;
+  transition: 0.3s;
+}
+
+.bgShadows:hover {
+  border: 1px solid #009ee4;
+  transition: 0.3s;
+}
+
+.lock-eye:hover i{
+  color: white;
+}
+
+.listTopSpace .lock-eye {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #c8c8c8;
+  padding: 6px;
+}
+
+.listTopSpace .lock-eye:hover {
+  background: #009ee4 0% 0% no-repeat padding-box;
+}
+
+.listTopSpace .visionRelative {
+  position: relative;
+  transition: 0 !important;
+}
+
+.listTopSpace .vision {
+  position: absolute;
+  right: 10px;
+  top: 32%;
+  visibility: hidden;
+}
+
+.listTopSpace .lock-eye:hover .visionColors {
+  color: white !important;
+}
+
+.listTopSpace .visionRelative:hover .vision {
+  visibility: visible;
+  transition: 0 !important;
+}
+
+@media (min-width: 426px) and (max-width: 575px) {
+  .productListWdth {
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .listImageTop {
+    margin-top: 2rem;
+  }
+
+  .homeHouseHold {
+    display: block !important;
+  }
+
+  .homeRedirect {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sortByContent {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 576px) {
+  .listNameHght {
+    min-height: 0px;
+  }
+
+  .listTopSpace .row {
+    margin-bottom: 0rem !important;
+  }
+
+  .listTopSpace {
+    margin-top: 0rem;
+  }
+
+  .bgShadows {
+    margin-top: 2rem;
+  }
+}

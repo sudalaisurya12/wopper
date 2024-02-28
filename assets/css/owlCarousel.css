@@ -1,0 +1,405 @@
+/* Owl Carousel css */
+.owl-prev,
+.owl-next {
+  display: block !important;
+}
+
+.offers .owl-prev {
+  position: absolute;
+  left: -80px;
+  top: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #009ee4 !important;
+  border-radius: 6px;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.offers .owl-next {
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #009ee4 !important;
+  border-radius: 6px;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.offers .owl-prev:hover {
+  background-color: #ffffff !important;
+  /* background-image: url(../img/chevron-left.svg) !important; */
+}
+
+.offers .owl-next:hover {
+  background-color: #ffffff !important;
+}
+
+.offers .owl-theme .owl-dots .owl-dot span {
+  display: none;
+}
+
+.offers .owl-theme .owl-nav [class*="owl-"]:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.offers .owl-dots {
+  display: none;
+}
+
+.offers button.owl-prev,
+.owl-next {
+  width: 20px;
+}
+
+.offers .owl-stage {
+  margin-top: 1rem;
+}
+
+.offers .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  background: white;
+  width: 25px;
+}
+
+/* Owl Carousel end */
+
+.offers .sliderArwClr {
+  color: #009ee4;
+}
+
+
+.blog-carousel .owl-prev,
+.blog-carousel .owl-next {
+  display: none;
+}
+
+/* -------============ New Arrivals ----------============ */
+.newArrivals .owl-prev {
+  position: absolute;
+  left: -80px;
+  top: 30%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #009ee4 !important;
+  border-radius: 6px;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.newArrivals .owl-next {
+  position: absolute;
+  right: -80px;
+  top: 30%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #009ee4 !important;
+  border-radius: 6px;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+
+
+.newArrivals .owl-prev:hover {
+  background-color: #00a0e485 !important;
+}
+
+.newArrivals .owl-next:hover {
+  background-color: #00a0e485 !important;
+}
+
+.newArrivals .owl-prev:hover .newArrivalsCrsl {
+  color: white !important;
+}
+
+.newArrivals .owl-next:hover .newArrivalsCrsl {
+  color: white !important;
+}
+
+/* Testimonials */
+.testimonialsCrsl .owl-prev {
+  position: absolute;
+  left: -90px;
+  top: 30%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #009ee4 !important;
+  border-radius: 6px;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.testimonialsCrsl .owl-next {
+  position: absolute;
+  right: -90px;
+  top: 30%;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 2px solid #009ee4 !important;
+  border-radius: 6px;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.testimonialsCrsl .owl-prev:hover {
+  background-color: #00a0e485 !important;
+}
+
+.testimonialsCrsl .owl-next:hover {
+  background-color: #00a0e485 !important;
+}
+
+.testimonialsCrsl .owl-prev:hover .newArrivalsCrsl {
+  color: white !important;
+}
+
+.testimonialsCrsl .owl-next:hover .newArrivalsCrsl {
+  color: white !important;
+}
+
+/* Media query start */
+@media (min-width: 1400px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .offers .owl-next {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #009ee4 !important;
+    border-radius: 6px;
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .offers .owl-prev {
+    width: 30px !important;
+    height: 30px !important;
+    left: -40px;
+  }
+
+  /* New Arrivals */
+  .newArrivals .owl-prev {
+    position: absolute;
+    left: -41px;
+    top: 30%;
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .newArrivals .owl-next {
+    position: absolute;
+    right: -41px;
+    top: 30%;
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  /* Testimonials */
+  .testimonialsCrsl .owl-prev {
+    position: absolute;
+    left: -45px;
+    top: 30%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #009ee4 !important;
+    border-radius: 6px;
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .testimonialsCrsl .owl-next {
+    position: absolute;
+    right: -45px;
+    top: 30%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #009ee4 !important;
+    border-radius: 6px;
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .offers .owl-next {
+    position: absolute;
+    right: -54px;
+    top: 50%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #009ee4 !important;
+    border-radius: 6px;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+
+  .offers .owl-prev {
+    width: 35px !important;
+    height: 35px !important;
+    left: -53px;
+    top: 45%;
+}
+
+  .offers .owl-next {
+    right: -53px;
+    width: 35px !important;
+    height: 35px !important;
+    top: 45%;
+  }
+
+  /* New Arrivals */
+
+  .newArrivals .owl-prev {
+    position: absolute;
+    left: -44px;
+    top: 30%;
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .newArrivals .owl-next {
+    right: -45px !important;
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  /* Testimonials */
+  .testimonialsCrsl .owl-prev {
+    left: -55px;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .testimonialsCrsl .owl-next {
+    position: absolute;
+    right: -58px;
+    top: 30%;
+    background: #ffffff 0% 0% no-repeat padding-box !important;
+    border: 2px solid #009ee4 !important;
+    border-radius: 6px;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .offers .owl-next {
+    display: none !important;
+  }
+
+  .offers .owl-prev {
+    display: none !important;
+  }
+
+  .newArrivals .owl-prev {
+    display: none !important;
+  }
+
+  .newArrivals .owl-next {
+    display: none !important;
+  }
+
+  /* Testimonials */
+  .testimonialsCrsl .owl-prev {
+    display: none !important;
+  }
+
+  .testimonialsCrsl .owl-next {
+    display: none !important;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .offers .owl-next {
+    right: -50px;
+    top: 50%;
+    width: 40px !important;
+  }
+
+  .offers .owl-prev {
+    height: 40px !important;
+    left: -50px;
+    top: 50%;
+  }
+
+  /* NEW ARRIVALS */
+  .newArrivals .owl-prev {
+    display: none !important;
+  }
+
+  .newArrivals .owl-next {
+    display: none !important;
+  }
+
+  /* Testimonials */
+  .testimonialsCrsl .owl-prev {
+    display: none !important;
+  }
+
+  .testimonialsCrsl .owl-next {
+    display: none !important;
+  }
+
+  .offers .owl-next {
+    display: none !important;
+  }
+
+  .offers .owl-prev {
+    display: none !important;
+  }
+
+  .offers .owl-stage {
+    margin-top: 1rem !important;
+  }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 575px) {
+  .offers .owl-next {
+    display: none !important;
+  }
+
+  .offers .owl-prev {
+    display: none !important;
+  }
+
+  /* NEW ARRIVALS */
+  .newArrivals .owl-prev {
+    display: none !important;
+  }
+
+  .newArrivals .owl-next {
+    display: none !important;
+  }
+
+  /* Testimonials */
+  .testimonialsCrsl .owl-prev {
+    display: none !important;
+  }
+
+  .testimonialsCrsl .owl-next {
+    display: none !important;
+  }
+
+  .offers .owl-stage {
+    margin-top: 3rem !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {}
+
+@media (min-width: 321px) and (max-width: 375px) {}
+
+@media (min-width: 376px) and (max-width: 425px) {}
+
+@media (min-width: 426px) and (max-width: 575px) {}
